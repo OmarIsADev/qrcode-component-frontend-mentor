@@ -41,18 +41,19 @@
       padding: 0 16px;
     }
 
-    .card {
+    card {
       background-color: hsl(0, 0%, 100%);
       border-radius: 15px;
       box-shadow: 0 10px 20px 0 hsla(0, 0%, 0%, 0.2);
       width: calc(320px - 32px);
+      height: calc(497px - 56px);
       display: flex;
       flex-direction: column;
       padding: 16px 16px 40px 16px;
       gap: 24px;
     }
 
-    .content {
+    content {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -62,9 +63,9 @@
   </style>
 </head>
 <body>
-  <div class="card">
+  <card>
     <img src="images/image-qr-code.png" alt="QR code">
-    <div class="content">
+    <content>
 
       <h1>
         Improve your front-end skills by building projects
@@ -72,7 +73,7 @@
       <p>
         Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
       </p>
-    </div>
-  </div>
+    </content>
+  </card>
 </body>
 </html>
