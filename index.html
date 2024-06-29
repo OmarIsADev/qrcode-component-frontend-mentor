@@ -1,82 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | QR code component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
-    body {
-      font-family: 'Outfit', sans-serif;
-      background: #D5E1EF;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
+    <title>Frontend Mentor | QR code component</title>
 
-    img {
-      border-radius: 10px;
-      width: 100%;
-      height: 100%;
-    }
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+      body {
+        font-family: "Outfit", sans-serif;
+        background: #d5e1ef;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
 
-    h1 {
-      color: hsl(218, 44%, 22%);
-      margin: 0;
-      font-size: 22px;
-      font-weight: 700;
-      margin: 0;
-    }
+      img {
+        border-radius: 10px;
+        width: 100%;
+        height: 100%;
+      }
 
-    p {
-      color: hsl(220, 15%, 55%);
-      font-weight: 500;
-      font-size: 15px;
-      padding: 0 16px;
-      margin: 0;
-    }
+      h1 {
+        color: hsl(218, 44%, 22%);
+        margin: 0;
+        font-size: 22px;
+        font-weight: 700;
+        margin: 0;
+      }
 
-    card {
-      background-color: hsl(0, 0%, 100%);
-      border-radius: 15px;
-      box-shadow: 0 10px 20px 0 hsla(0, 0%, 0%, 0.2);
-      width: calc(320px - 32px);
-      height: calc(497px - 56px);
-      display: flex;
-      flex-direction: column;
-      padding: 16px 16px 40px 16px;
-      gap: 24px;
-    }
+      p {
+        color: hsl(220, 15%, 55%);
+        font-weight: 500;
+        font-size: 15px;
+        padding: 0 16px;
+        margin: 0;
+      }
 
-    content {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      gap: 16px;
-    }
-  </style>
-</head>
-<body>
-  <card>
-    <img src="images/image-qr-code.png" alt="QR code">
-    <content>
+      card {
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 15px;
+        box-shadow: 0 10px 20px 0 hsla(0, 0%, 0%, 0.2);
+        width: calc(320px - 32px);
+        height: calc(497px - 56px);
+        display: flex;
+        flex-direction: column;
+        padding: 16px 16px 40px 16px;
+        gap: 24px;
+      }
 
-      <h1>
-        Improve your front-end skills by building projects
-      </h1>
-      <p>
-        Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-      </p>
-    </content>
-  </card>
-</body>
+      content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <card>
+        <img src="images/image-qr-code.png" alt="QR code" />
+        <content>
+          <h1>Improve your front-end skills by building projects</h1>
+          <p>
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </p>
+        </content>
+      </card>
+    </main>
+  </body>
 </html>
